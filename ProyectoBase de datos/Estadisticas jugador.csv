@@ -1,3 +1,8 @@
 idEstadísticas,Fk_idJugador,Fecha_Partido,Puntos,Asistencias,Rebotes,Robos,Tapones,Minutos_Jugados
 1,1,2024-05-07,35,52,25,3,15,52
 2,2,2024-05-07,40,41,24,5,15,42
+
+INSERT UPDATE baloncesto.Estadisticas_Jugador (ID_Jugador, Fecha_Partido, Puntos, Asistencias, Rebotes, Robos, Tapones, Minutos_Jugados)
+VALUES 
+(1, '2024-01-15', 25, 5, 7, 2, 1, 30),
+(2, '2024-01-16', 22, 6, 8, 3, 0, 32);
