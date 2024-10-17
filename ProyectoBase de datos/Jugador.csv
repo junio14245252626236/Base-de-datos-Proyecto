@@ -1,3 +1,10 @@
 idJugador,Nombre,Edad,Posición,Universidad,jugadorcol,Historial_Lesiones,Equipo_Actual
 1,"John Doe",22,Base,"University A",Ninguna,Ninguna,Ninguno
 2,"Jane Smith",21,Alero,"University B",Rodilla,Ninguna,Ninguno
+
+
+INSERT `baloncesto`.`jugador`(Nombre, Edad, Posicion, Universidad, Historial_Lesiones, Equipo_Actual)
+VALUES 
+('John Doe', 22, 'Base', 'University A', 'Ninguna', 'Ninguno'),
+('Jane Smith', 21, 'Alero', 'University B', 'Lesión de rodilla en 2022', 'Ninguno');
+
