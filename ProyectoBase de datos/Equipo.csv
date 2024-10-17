@@ -1,3 +1,8 @@
 idEquipo,Nombre_Equipo,Ciudad,Estilo_Juego,Posiciones_Necesarias
 1,Lakers,"Los Angeles","Rápido y ofensivo","Base, Alero"
 2,Heat,Miami,"Defensivo y estratégico","Pívot, Escolta"
+
+INSERT UPDATE baloncesto.Equipo (Nombre_Equipo, Ciudad, Estilo_Juego, Posiciones_Necesarias)
+VALUES 
+('Lakers', 'Los Angeles', 'Rápido y ofensivo', 'Base, Alero'),
+('Heat', 'Miami', 'Defensivo y estratégico', 'Pívot, Escolta');
