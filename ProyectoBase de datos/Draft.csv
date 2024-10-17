@@ -1,3 +1,8 @@
 id_seleccinar,idJugador,idEquipo,Año_Draft,Ronda,Posición_Draft
 1,1,1,2024,3,1
 2,2,2,2024,3,2
+
+INSERT INTO Draft (ID_Jugador, ID_Equipo, Año_Draft, Ronda, Posicion_Draft)
+VALUES 
+(1, 1, 2024, 1, 1),
+(2, 2, 2024, 1, 2);
